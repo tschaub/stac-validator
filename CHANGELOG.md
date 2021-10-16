@@ -12,6 +12,7 @@ The format is (loosely) based on [Keep a Changelog](http://keepachangelog.com/) 
 - Added test_links.py
 - Added v1.0.0 STAC examples from radiant earth github
 - Added v1.0.0 examples to tests
+- Added --no-output option to stop output being printed via the command line
 
 ### Changed
 

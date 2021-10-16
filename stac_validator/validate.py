@@ -31,6 +31,7 @@ class StacValidate:
         no_output: bool = False,
         log: str = "",
     ):
+        self.no_output = False
         self.stac_file = stac_file
         self.message: list = []
         self.custom = custom
@@ -44,7 +45,6 @@ class StacValidate:
         self.depth: int = 0
         self.skip_val = False
         self.verbose = verbose
-        self.no_output = False
         self.valid = False
         self.log = log
 
